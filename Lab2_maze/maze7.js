@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         walls.forEach(function (wall) {
             wall.style.backgroundColor = "#eeeeee";
         });
-        start.dataset.visited = false; 
+        start.dataset.visited = true; 
         status.textContent = "Move your mouse over the 'S' to begin.";
        
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             start.dataset.visited = "false";
             walls.forEach(function (wall) {
             wall.style.backgroundColor = "red";
-                status.textContent  = "You cheated!!";
+                status.textContent  = "You lose!";
         });
         }
     });
