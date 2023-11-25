@@ -1,0 +1,23 @@
+.button-container {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.click-me-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(237, 177, 163);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clicked-text {
+    color: white;
+    background-color: rgb(117, 184, 117);
+}
+
+.clicked-text2 {
+    color: white;
+
+}

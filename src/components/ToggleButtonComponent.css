@@ -1,0 +1,17 @@
+.button-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.toggle-button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(237, 177, 163);
+    color: white;
+    cursor: pointer;
+}
+
+.clicked {
+background-color: rgb(117, 184, 117);
+}

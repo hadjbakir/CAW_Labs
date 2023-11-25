@@ -1,0 +1,51 @@
+/* Exo2.css */
+
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #343a40; /* Dark text color */
+  }
+  
+  hr {
+    border: 0.5px solid #ced4da; /* Light border between sections */
+    margin: 20px 0;
+  }
+  
+  /* Styling for DisplayTab component */
+  .display-tab {
+    margin-bottom: 20px;
+  }
+  
+  .display-tab h2 {
+    color: #eaff00; /* Blue heading color */
+    margin-bottom: 10px;
+  }
+  
+  .display-tab ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .display-tab li {
+    flex: 0 0 48%; /* Displaying two items per row with a small gap */
+    margin: 1%;
+    background-color: #ffffff; /* White background for each item */
+    padding: 10px;
+    border: 1px solid #dee2e6; /* Light border for each item */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .display-tab li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
+  }
+  
