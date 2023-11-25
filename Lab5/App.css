@@ -1,0 +1,52 @@
+/* App Container */
+.app-container {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Counter Button */
+.counter-button {
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.counter-button:hover {
+  background-color: #2980b9;
+}
+
+/* Counter Value */
+.counter-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Clicked Info */
+.clicked-info {
+  font-size: 18px;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+/* Exercise Buttons */
+.exercise-button {
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 2px solid #e67e22;
+  border-radius: 4px;
+  background-color: #e67e22;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.exercise-button:hover {
+  background-color: #e2884c;
+}

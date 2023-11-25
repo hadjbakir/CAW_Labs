@@ -1,0 +1,34 @@
+.display-tab-container {
+    margin-top: 20px;
+  }
+  
+  .display-tab-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .display-tab-item {
+    margin-bottom: 10px;
+}
+
+.display-option-1 {
+    color: purple;
+}
+
+.display-option-2 {
+    color: purple;
+}
+
+.display-option-3 {
+      cursor: pointer;
+    color: red;
+  }
+
+  
+.display-option-3:hover {
+    color: blue;
+}
+  
+.display-option-4 {
+  color: purple;
+}
